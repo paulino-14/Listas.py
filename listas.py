@@ -1,0 +1,30 @@
+# LISTAS 
+
+nome1 = "ANA"
+nome2 = "BRUNO"
+nome3 = "CARLOS"
+
+nomes = ["Arthur", "João", "Maria"]
+print(nomes)
+
+dados = ["Gabriel" , 0 , 1.68, True]
+
+print(dados)
+print(type(dados))
+print(type(dados(0)))
+print(type(dados(1)))
+print(type(dados(2)))
+print(type(dados(3)))
+
+alunos = ["Adriano", "Barbara", "Camila"]
+
+print("Primeiro", alunos(0))
+print("Primeiro", alunos(1))
+print("Primeiro", len(alunos))
+print("Primeiro", alunos(2))
+print ("Primeiro", alunos(len (alunos) - 1))
+
+nomes = ["Ana", "Bruno", "Carlo"]
+print("Original", nomes )
+nomes ("Daniel")
+print("Atualizado:" , nomes)
